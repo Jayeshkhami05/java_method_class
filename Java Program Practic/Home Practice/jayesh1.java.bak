@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class jayesh1
+{
+	String name;
+	public static void main(String[] args) 
+	{
+		jayesh1 j1=new jayesh1();
+		System.out.println(+j1.name+"  "+j1.mobilenumber+);
+
+		jayesh1 j2=new jayesh1();
+		System.out.println(+j2.name+" "+j2.mobilenumber+);
+	}
+
+	public jayesh1()
+	{
+		Scanner sc=new Scanner(System.in);
+		name=sc.next();
+	}
+}

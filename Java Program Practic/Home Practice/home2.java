@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class home2
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter A Rows Number");
+		int row=sc.nextInt();
+
+		System.out.println("Enter A colum Number");
+		int colum=sc.nextInt();
+
+		for (int i=1;i<=row;i++)
+		{
+			for (int j=1;j<=colum;j++)
+			{
+				if (i==1||j==1||i==colum||j==row)
+				{
+					System.out.print(" * ");
+				}
+				else
+				{
+				System.out.print("  ");
+				}
+			}
+			System.out.println();
+			
+		}
+		
+	}
+}
